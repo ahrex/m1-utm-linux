@@ -132,9 +132,9 @@ the following in the UTM console window:
 
 ### Non-root user
 
-It's generally recommended to use the root account for day-to-day operations.
-Create a non-root user by running the following, replacing `<USERNAME>` as
-appropriate:
+It's generally not recommended to use the root account for day-to-day
+operations.  Create a non-root user by running the following, replacing
+`<USERNAME>` as appropriate:
 
     useradd --gid users --groups wheel --create-home --shell /bin/zsh --uid 501 <USERNAME>
 
