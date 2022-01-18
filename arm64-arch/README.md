@@ -50,12 +50,12 @@ On the "Display" tab, move from "Full Graphics" to "Console Only".
 
 On the "Sound" tab, uncheck "Enabled":
 
-![08-no-sound](images/08-no-sound.png)
+![09-no-sound](images/09-no-sound.png)
 
 Tap "Save" to exit back to the main UTM screen, and press the ▶️ button to start
 the new VM you've just configured.
 
-![09-vm-on](images/09-vm-on.png)
+![10-vm-on](images/10-vm-on.png)
 
 ## On-target configuration
 
@@ -66,7 +66,7 @@ loader" phase.
 
 > Note: the console window supports copy & paste
 
-![10-resize-console](images/10-resize-console.png)
+![11-resize-console](images/11-resize-console.png)
 
 Here are some (optional) tips that I think are helpful for a new install:
 
@@ -215,11 +215,11 @@ And shut down the VM:
 In the main UTM window, tap on your newly-created VM, and then tap on the "Edit
 selected VM" button:
 
-![11-vm-edit](images/11-vm-edit.png)
+![12-vm-edit](images/12-vm-edit.png)
 
 On the "Drives" tab, delete the install ISO:
 
-![12-delete-install-iso](images/12-delete-install-iso.png)
+![13-delete-install-iso](images/13-delete-install-iso.png)
 
 Save, and try running the guest OS in mission mode!
 
