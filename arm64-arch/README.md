@@ -48,6 +48,18 @@ On the "Display" tab, move from "Full Graphics" to "Console Only".
 
 ![07-console-only](images/07-console-only.png)
 
+If you would like to be able to ssh into your VM: on the "Network" tab, ensure
+that "Emulated VLAN" is selected, then tap on "New" at the right side of "Port
+Forward", and enter the following, and tap on "Save":
+
+    Protocol: TCP
+    Guest Address: (leave blank)
+    Guest Port: 22
+    Host Address: 127.0.0.1
+    Host Port: 2222
+
+[!08-network-ssh](images/08-network-ssh.png)
+
 On the "Sound" tab, uncheck "Enabled":
 
 ![09-no-sound](images/09-no-sound.png)
