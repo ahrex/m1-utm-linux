@@ -172,12 +172,12 @@ Get the default route by noting what comes after `dev` in this command:
 
     ip route get 1.1.1.1
 
-It should be of the form `enpXsY`. Create a network config similar to the [Arch
+It should be of the form `enpXs*`. Create a network config similar to the [Arch
 guide](https://wiki.archlinux.org/title/systemd-networkd#Wired_adapter_using_DHCP)
 by writing the following to `/etc/systemd/network/20-wired.network`:
 
     [Match]
-    Name=enpXsY
+    Name=enpXs*
 
     [Network]
     DHCP=yes
