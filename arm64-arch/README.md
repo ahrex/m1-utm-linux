@@ -58,7 +58,7 @@ Forward", and enter the following, and tap on "Save":
     Host Address: 127.0.0.1
     Host Port: 2222
 
-[!08-network-ssh](images/08-network-ssh.png)
+![08-network-ssh](images/08-network-ssh.png)
 
 On the "Sound" tab, uncheck "Enabled":
 
